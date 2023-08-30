@@ -1,0 +1,54 @@
+.main{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .sidebar{
+    background: rgb(94, 94, 94);
+  }
+
+  .sidebar a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+  }
+
+  .sidebar a:hover{
+    background: #000;
+  }
+
+  .active {
+    background: #000;
+    border-right: 7px solid tomato;
+  }
+
+  .card-data {
+    border: 2px solid;
+    padding: 20px 30px;
+    color: white;
+  }
+
+  .card-data.buku{
+    background-color: #202040;
+  }
+
+  .card-data.kategori{
+    background-color: #543864;
+  }
+
+  .card-data.user{
+    background-color: #FF6363;
+  }
+
+  .card-data i {
+    font-size: 80px;
+  }
+
+  .card-desc{
+    font-size: 30px;
+  }
+
+  .card-count{
+    font-size: 20px;
+  }
